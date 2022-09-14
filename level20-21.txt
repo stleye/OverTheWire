@@ -1,0 +1,6 @@
+echo VxCazJaVykI6W36BkBU0mJTCM8rR95XT | nc -l 12345&
+
+./suconnect 12345
+
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
