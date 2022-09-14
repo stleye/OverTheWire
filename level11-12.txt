@@ -1,0 +1,3 @@
+cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+
+JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
