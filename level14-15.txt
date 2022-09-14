@@ -1,0 +1,4 @@
+telnet localhost 30000
+enter password of bandit14 fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq (located in etc/bandit_pass/bandit14)
+
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
