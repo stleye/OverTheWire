@@ -65,3 +65,10 @@ dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
 
+then, in the local computer we type
+
+ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
+
+cat /etc/bandit_pass/bandit17
+
+VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
