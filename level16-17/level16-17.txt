@@ -12,29 +12,9 @@ PORT      STATE SERVICE     VERSION
 31691/tcp open  echo
 31790/tcp open  ssl/unknown
 31960/tcp open  echo
-1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port31790-TCP:V=7.80%T=SSL%I=7%D=9/14%Time=63225451%P=x86_64-pc-linux-g
-SF:nu%r(GenericLines,31,"Wrong!\x20Please\x20enter\x20the\x20correct\x20cu
-SF:rrent\x20password\n")%r(GetRequest,31,"Wrong!\x20Please\x20enter\x20the
-SF:\x20correct\x20current\x20password\n")%r(HTTPOptions,31,"Wrong!\x20Plea
-SF:se\x20enter\x20the\x20correct\x20current\x20password\n")%r(RTSPRequest,
-SF:31,"Wrong!\x20Please\x20enter\x20the\x20correct\x20current\x20password\
-SF:n")%r(Help,31,"Wrong!\x20Please\x20enter\x20the\x20correct\x20current\x
-SF:20password\n")%r(SSLSessionReq,31,"Wrong!\x20Please\x20enter\x20the\x20
-SF:correct\x20current\x20password\n")%r(TerminalServerCookie,31,"Wrong!\x2
-SF:0Please\x20enter\x20the\x20correct\x20current\x20password\n")%r(TLSSess
-SF:ionReq,31,"Wrong!\x20Please\x20enter\x20the\x20correct\x20current\x20pa
-SF:ssword\n")%r(Kerberos,31,"Wrong!\x20Please\x20enter\x20the\x20correct\x
-SF:20current\x20password\n")%r(FourOhFourRequest,31,"Wrong!\x20Please\x20e
-SF:nter\x20the\x20correct\x20current\x20password\n")%r(LPDString,31,"Wrong
-SF:!\x20Please\x20enter\x20the\x20correct\x20current\x20password\n")%r(LDA
-SF:PSearchReq,31,"Wrong!\x20Please\x20enter\x20the\x20correct\x20current\x
-SF:20password\n")%r(SIPOptions,31,"Wrong!\x20Please\x20enter\x20the\x20cor
-SF:rect\x20current\x20password\n");
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 97.90 seconds
 
+openssl s_client -ign_eof -connect localhost:31790
 ---- IT RETURNS A PRIVATE KEY ----
 
 -----BEGIN RSA PRIVATE KEY-----
