@@ -31,3 +31,7 @@ kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN
 
 chmod 400 bandit14.key
 ssh -i bandit14.key bandit14@bandit.labs.overthewire.org -p 2220
+
+Once we logged in to the server, we can read the password for bandit14
+
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
