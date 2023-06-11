@@ -1,5 +1,5 @@
 cd inhere
-find . -size 1033c #returns ./maybehere07/.file2
+find . -type f ! -executable -type f -size 1033c
 cat ./maybehere07/.file2
 
 P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
