@@ -1,0 +1,16 @@
+mkdir /tmp/gitrep
+cd /tmp/gitrep
+
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+
+cd repo
+
+git branch -r
+
+git checkout origin/dev
+
+cat README
+
+xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS
+
+
