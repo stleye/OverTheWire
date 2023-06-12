@@ -1,0 +1,3 @@
+$0
+
+cat /etc/bandit_pass/bandit33
