@@ -1,0 +1,19 @@
+mkdir /tmp/gitrep
+cd /tmp/gitrep
+
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+
+cd repo
+
+cat README
+
+follow instructions, create a file called key.txt with the indicated content
+change the .gitignore file, remove the *.txt
+
+git add .
+git commit -m "some message"
+
+git push
+
+
+rmCBvG56y58BXzv98yZGdO7ATVL5dW8y
