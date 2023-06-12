@@ -1,0 +1,15 @@
+mkdir /tmp/gitrep
+cd /tmp/gitrep
+
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+
+cd repo
+cat README
+
+git log
+
+git checkout abcff758fa6343a0d002a1c0add1ad8c71b88534
+
+cat README
+
+tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S
