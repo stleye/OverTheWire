@@ -1,0 +1,8 @@
+We can see there is a source code calculating a function and comparing to an encoded secret, we need the value that when applied gives the encoded secret, for that we will write 
+a script in php
+
+When the script is run with the encoded secret, it gives as a result the secret oubWYf2kBq
+
+Once we enter the secret in the input we get the password for next level
+
+Access granted. The password for natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t

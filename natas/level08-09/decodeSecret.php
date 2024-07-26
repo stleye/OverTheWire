@@ -1,3 +1,4 @@
+<?php
 function decodeSecret($encoded) {
     // Step 1: Convert from hex to binary
     $binary = hex2bin($encoded);
@@ -15,3 +16,5 @@ function decodeSecret($encoded) {
 $encoded = "3d3d516343746d4d6d6c315669563362"; // Replace with your encoded string
 $decoded = decodeSecret($encoded);
 echo $decoded;
+?>
+
