@@ -1,0 +1,11 @@
+We enter the website and we see there is a link go a source code file, notice the include in the PHP code /includes/secret.inc.
+
+Go to that URL (http://natas6.natas.labs.overthewire.org/includes/secret.inc) and check the secret is defined there
+
+<?
+$secret = "FOEIUWGHFEEUHOFUOIU";
+?>
+
+We go back to the website and enter the secret FOEIUWGHFEEUHOFUOIU
+
+Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS

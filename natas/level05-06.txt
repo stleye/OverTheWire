@@ -1,0 +1,5 @@
+When we open the site in a browser, it says we are not logged in.
+
+By entering the console in a browser, we see there is a cookie with value loggedin=0, we go to the Application Tab, then Storage and Cookies, then change the value to isloggedin=1 and refresh the screen
+
+Access granted. The password for natas6 is 0RoJwHdSKWFTYR5WuiAewauSuNaBXned

