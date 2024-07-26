@@ -1,0 +1,15 @@
+curl -u natas2:TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI http://natas2.natas.labs.overthewire.org/
+
+You can see there is a files directory, enter it in a browser http://natas2.natas.labs.overthewire.org/files
+
+There is a file users.txt containing the following
+
+# username:password
+alice:BYNdCesZqW
+bob:jw2ueICLvT
+charlie:G5vCxkVV3m
+natas3:3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+eve:zo4mJWyNj2
+mallory:9urtcpzBmH
+
+So the password is 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH 

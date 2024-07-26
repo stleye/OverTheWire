@@ -1,0 +1,3 @@
+curl -u natas1:0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq http://natas1.natas.labs.overthewire.org/
+
+TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI

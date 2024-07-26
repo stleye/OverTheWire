@@ -1,0 +1,13 @@
+curl -u natas3:3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH http://natas3.natas.labs.overthewire.org/
+
+If Google doesn't find it it may be because the hidden site has been added to robots.txt
+
+curl -u natas3:3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH http://natas3.natas.labs.overthewire.org/robots.txt
+
+The hidden site from Google is /s3cr3t/ so we enter http://natas3.natas.labs.overthewire.org/s3cr3t/ in a browser
+
+There is a users.txt containing
+
+natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
+
+
