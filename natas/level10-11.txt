@@ -1,0 +1,9 @@
+We cannot use the same command from the previous exercise, but we can apply the grep to the file we know it exists
+
+a /etc/natas_webpass/natas11
+
+It searches char a in the file natas11 and also in dictionary.txt
+
+/etc/natas_webpass/natas11:UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
+
+

